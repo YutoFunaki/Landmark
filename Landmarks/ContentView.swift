@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-           
+           Mapview()
+                .frame(height: 300)
             
             VStack(alignment: .leading) {
                     Text("Turtle Rock")
