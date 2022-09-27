@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+//アプリのメインバンドルから特定の名前のJSONデータを取得するload(_:)メソッドを作成
+func load<T: Decodable>(_ filename: String) -> T {
+    let data: Data
+    
+    guard let file
+}
